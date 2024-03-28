@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from services.AllPaymentServices import PaymentProcessingHandler
+from services.PaymentProcessingHandler import PaymentProcessingHandler
 import json
 
 payment_controller = Blueprint('payment_controller', __name__)
